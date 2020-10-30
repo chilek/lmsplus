@@ -91,6 +91,8 @@ Zapraszamy do dołączenia do projektu LMS Plus - można to zrobić wysyłając 
 
 [wtyczka: statystyki w oparciu o pakiet narzędziowy RRDTOOL](https://github.com/chilek/lms-plus/tree/rrdstats) - **[zrzuty ekranu](https://github.com/lmsgit/lms/wiki/RRDSTATS-zrzuty-ekranu)**
 
+[wtyczka: obsługa SMS w Mikrotiku](https://github.com/chilek/lms-plus/tree/mikrotik-sms/plugins/LMSMikrotikSmsPlugin/doc)
+
 [wtyczka: obsługa platformy IPTV Evio](https://github.com/chilek/lms-plus/tree/evio) - **[zrzuty ekranu](https://github.com/lmsgit/lms/wiki/EVIO-zrzuty-ekranu)**
 
 [wtyczka: eksport danych finansowych do formatu XML programu CDN Optima](https://github.com/chilek/lms-plus/tree/optima)
