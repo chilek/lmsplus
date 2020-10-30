@@ -63,9 +63,9 @@ Zapraszamy do dołączenia do projektu LMS Plus - można to zrobić wysyłając 
 
 [przestarzała gałąź stabilna](https://github.com/chilek/lms-plus/tree/stable-1.11.19) (ostatnia wersja **1.11.19.15**)
 
-[wtyczka: obsługa gpon urządzeń firmy ZTE](https://github.com/chilek/lms-plus/tree/gpon-zte) - **[zrzuty ekranu](https://github.com/lmsgit/lms/wiki/GPON-ZTE-zrzuty-ekranu)**
+[wtyczka: obsługa gpon urządzeń firmy ZTE](https://github.com/chilek/lms-plus/tree/gpon-zte/plugins/LMSGponZtePlugin/doc) - **[zrzuty ekranu](https://github.com/lmsgit/lms/wiki/GPON-ZTE-zrzuty-ekranu)**
 
-[wtyczka: obsługa gpon urządzeń firmy Dasan](https://github.com/chilek/lms-plus/tree/gpon-dasan) - **[zrzuty ekranu](https://github.com/lmsgit/lms/wiki/GPON-DASAN-zrzuty-ekranu)**
+[wtyczka: obsługa gpon urządzeń firmy Dasan](https://github.com/chilek/lms-plus/tree/gpon-dasan/plugins/LMSGponDasanPlugin/doc) - **[zrzuty ekranu](https://github.com/lmsgit/lms/wiki/GPON-DASAN-zrzuty-ekranu)**
 
 [wtyczka: obsługa platformy VoIP Hiperus C5](https://github.com/chilek/lms-plus/tree/hiperus)
 
