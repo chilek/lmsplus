@@ -14,11 +14,22 @@ jakość obsługi.
     - listę mailingową lms-plus@lists.lms.org.pl,
     - system zgłoszeń (ang. issues) projektu w witrynie github.com.
 
+## Warunki uczestnictwa w projekcie LMS Plus
+
+Każdy uczestnik za opłatą miesięczną uzyskuje dostęp do prywatnego repozytorium git bazującego na publicznym repozytorium LMS-a. Przystąpienie do projektu jest możliwe na co najmniej rok. Po roku uczestnik może wycofać się z projektu za miesięcznym wypowiedzeniem.
+
+Opłata miesięczna uzależniona jest od zadeklarowanej przez uczestnika obsługiwanej liczby abonentów zgodnie z poniższym zasadami (warunki obowiązujące od **1 maja 2025 roku**; wszystkie ceny netto / bez podatku VAT):
+
+- **300 zł** (taryfa **LMS+ L**) - od **1000** abonentów,
+- **250 zł** (taryfa **LMS+ M**) - od **500** abonentów i poniżej **1000** abonentów,
+- **200 zł** (taryfa **LMS+ S**) - poniżej **500** abonentów.
+
 ## Dołączenie do projektu LMS Plus
 
 Zapraszamy do dołączenia do projektu LMS Plus - można to zrobić wysyłając maila na adres [biuro@chilan.com](mailto:biuro@chilan.com?subject=projekt%20LMS%20Plus) o następującej treści:
 1. Dane firmy do wystawianych faktur.
-1. Adres e-mail na który będą automatycznie wysyłane faktury.
+1. Adres e-mail, na który będą automatycznie wysyłane faktury.
+1. Deklarowana liczba obsługiwanych abonentów (w przypadku braku deklaracji przyjmiemy taryfę **LMS+ L** w cenie **300 zł**).
 1. Adres e-mail do zapisania na listę mailingową LMS Plus.
 1. Nazwa konta w systemie github.com (konto trzeba utworzyć samodzielnie).
 1. Załączony skan podpisanego i przypieczętowanego regulaminu projektu dostępnego poniżej:
@@ -59,13 +70,13 @@ Zapraszamy do dołączenia do projektu LMS Plus - można to zrobić wysyłając 
 
 [gałąź główna (klon publicznie dostępnej gałęzi master)](https://github.com/chilek/lms-plus/tree/master)
 
-[gałąź stabilna](https://github.com/chilek/lms-plus/tree/stable) (ostatnia wersja **27.32**)
+[gałąź stabilna](https://github.com/chilek/lms-plus/tree/stable) (ostatnia wersja **27.79**)
 
-[poprzednia gałąź stabilna](https://github.com/chilek/lms-plus/tree/stable-26) (ostatnia wersja **26.65**)
+[poprzednia gałąź stabilna](https://github.com/chilek/lms-plus/tree/stable-26) (ostatnia wersja **26.112**)
 
-[poprzednia gałąź stabilna](https://github.com/chilek/lms-plus/tree/stable-25) (ostatnia wersja **25.87**)
+[poprzednia gałąź stabilna](https://github.com/chilek/lms-plus/tree/stable-25) (ostatnia wersja **25.108**)
 
-[poprzednia gałąź stabilna](https://github.com/chilek/lms-plus/tree/stable-24) (ostatnia wersja **24.114**)
+[poprzednia gałąź stabilna](https://github.com/chilek/lms-plus/tree/stable-24) (ostatnia wersja **24.135**)
 
 [przestarzała gałąź stabilna](https://github.com/chilek/lms-plus/tree/stable-1.11.23) (ostatnia wersja **1.11.23.32**)
 
@@ -89,11 +100,13 @@ Zapraszamy do dołączenia do projektu LMS Plus - można to zrobić wysyłając 
 
 [wtyczka: obsługa platformy Nettelekom](https://github.com/chilek/lms-plus/tree/nettelekom)
 
+[wtyczka: obsługa platformy Metroport MVNO](https://github.com/chilek/lms-plus/tree/metroport-mvno)
+
 [zaawansowane szablony dokumentów](https://github.com/chilek/lms-plus/tree/document-templates) - **[zrzuty ekranu](https://github.com/chilek/lms/wiki/CONTRACT-PROMO-zrzuty-ekranu)**:
-* [umowy promocyjne i pakietowe](https://github.com/chilek/lms-plus/tree/document-templates/documents/templates/contract-promo),
-* [wezwania do zapłaty z automatycznym naliczaniem odsetek](https://github.com/chilek/lms-plus/tree/document-templates/documents/templates/payment-summons),
-* [książeczka opłat uwzględniająca harmonogram obciążeń klienta](https://github.com/chilek/lms-plus/tree/document-templates/documents/templates/payment-booklet),
-* [biling telefoniczny](https://github.com/chilek/lms-plus/tree/document-templates/documents/templates/billing).
+* [umowy promocyjne i pakietowe](https://github.com/chilek/lms-plus/tree/document-templates/plugins/LMSDocumentTemplatesPlugin/documents/templates/contract-promo),
+* [wezwania do zapłaty z automatycznym naliczaniem odsetek](https://github.com/chilek/lms-plus/tree/document-templates/plugins/LMSDocumentTemplatesPlugin/documents/templates/payment-summons),
+* [książeczka opłat uwzględniająca harmonogram obciążeń klienta](https://github.com/chilek/lms-plus/tree/document-templates/plugins/LMSDocumentTemplatesPlugin/documents/templates/payment-booklet),
+* [biling telefoniczny](https://github.com/chilek/lms-plus/tree/document-templates/plugins/LMSDocumentTemplatesPlugin/documents/templates/billing).
 
 [raporty WWPE do UKE](https://github.com/chilek/lms-plus/tree/uke)
 
@@ -136,8 +149,3 @@ Zapraszamy do dołączenia do projektu LMS Plus - można to zrobić wysyłając 
 [wtyczka: obsługa podpisów biometrycznych dokumentów w oparciu o usługę Signatus firmy Infinite](https://github.com/chilek/lms-plus/tree/signatus) - **[zrzuty ekranu](https://github.com/chilek/lms/wiki/SIGNATUS-zrzuty-ekranu)**
 
 Uwaga! Dziennik/archiwum transakcji został już zintegrowany z publicznie dostępną gałęzią LMS.
-
-## Warunki uczestnictwa w projekcie LMS Plus
-
-Każdy uczestnik za opłatą miesięczną w wysokości 200 zł netto uzyskuje dostęp do prywatnego repozytorium git bazującego na publicznym repozytorium LMS-a. Przystąpienie do projektu jest możliwe na co najmniej rok. Po roku uczestnik może wycofać się z projektu za miesięcznym wypowiedzeniem.
-
