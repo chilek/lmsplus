@@ -130,3 +130,22 @@ Warto zauważyć, że po korekcie urządzenie sieciowe już nie jest przypisane 
 
 - Korekta dokumentu dzierżawy jest dokumentem RWk i jako taki podlega tym samych zasadom używania, które dotyczą standardowej korekty RWk.
 - Lista dokumentów RWk dostępna jest z menu głównego (Magazyn-dokumenty->RWk)
+
+## Protokół zdawczo-odbiorczy dla dzierżawionego urządzenia
+
+Dla zatwierdzonego dokumentu dzierżawy RW można utworzyć dokument protokołu zdawczo-odbiorczego, który następnie można powiązać z umową.
+Można to osiągnąć w natępujący sposób:
+- W formularzu z informacjami o dokumencie RW należy użyć przycisku '_Utwórz protokół_'.
+Spowoduje to przeniesienie do formularza tworzenia dokumentu typu '_protokół_' z szablonem '_Protokół z dokumentu RW'_'.
+W polu '_Dokument odniesienia_' od razu można wskazać dokument umowy.
+W panelu '_Informacje dodatkowe_' od razu zostanie ustawiony dokument RW, z którego została zainicjowana czynność.
+- Tworząc nowy dokument typu '_protokół_'. Dla takiego dokumentu wybrać należy szablon '_Protokół z dokumentu RW'_'.
+W polu '_Dokument odniesienia_' od razu można wskazać dokument umowy.
+W panelu '_Informacje dodatkowe_' należy wybrać odpowiedni dokument RW utworzony wczesniej i zatwierdzony.
+
+Te czynności tworzą bezpośrednie powiązanie protokołu z umową i pośrednie (przez protokół) powiązanie RW z umową.
+
+Uwaga:
+- Jeszcze przed zatwierdzeniem dokumentu RW można podejrzeć jak będzie wyglądał protokół zdawczo-odbiorczy zaznaczając opcję '_protokół_' w sekcji z opcjami do drukowania,
+która znajduje się na formularzu z informacją o dokumencie RW.
+- Powiązanie prtokołu z dokumentem RW jest sygnalizowane na karcie dokumentu RW i liście dokumentów RW.

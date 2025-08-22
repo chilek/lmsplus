@@ -67,3 +67,23 @@
 **Opis:** Określa, czy w przypadku kiedy egzemplarz produktu jest powiązany z urządzeniem sieciowym zmiana nazwy, numeru seryjnego i opisu egzemplarza w magazynie spowoduje automatyczną zmianę tych danych w powiązanym urządzeniu sieciowym i na odwrót. Dodatkowo dla wartości _true_ przy próbie powiązania istniejącego egzemplarza z istniejącym urządzeniem sieciowym wymienione powyżej dane urządzenia sieciowego zostaną nadpisane danymi egzemplarza.
 
 **Dostępność:** Od wersji >= 2.0.0
+
+### warehouse.document_type
+
+**Typ:** Wartość tekstowa.
+
+**Wartość domyślna:** _(brak)_
+
+**Opis:** Brak wartości lub przypisanie wartości _html_ spowoduje, że wydruk dokumentów w html. Przypisanie wartości _pdf_ i ustawienie zmiennej konfiguracyjnej _warehouse.html2pdf_command_ spowoduje konwersję wydruku w locie z html do pdf.
+
+**Dostępność:** Od wersji >= 2.13.0
+
+### warehouse.html2pdf_command
+
+**Typ:** Wartość tekstowa.
+
+**Wartość domyślna:** _(brak)_
+
+**Opis:** Wskazuje program skrypt, który ma zadanie przekonwertować w locie dokument HTML na PDF.
+
+**Dostępność:** Od wersji >= 2.13.0
